@@ -1,0 +1,10 @@
+{
+  "name": "shartnoma-html-converter",
+  "version": "1.0.0",
+  "main": "converter.js",
+  "type": "commonjs",
+  "dependencies": {
+    "cheerio": "^1.1.0",
+    "mammoth": "^1.9.1"
+  }
+}
