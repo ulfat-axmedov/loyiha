@@ -23,11 +23,6 @@ mammoth.convertToHtml({ path: inputPath })
       $el.text(text.replace(/\[class=([^\]]+)\]/, "").trim());
     }
 
-
-    if (/20___ yil/.test(text)) {
-      const newDiv = `<pre class="date_row">${$el.html()}</pre>`;
-      $el.replaceWith(newDiv);
-    }
   });
 
   const finalHtml = `
