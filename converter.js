@@ -39,11 +39,11 @@ ${$("body").html()}
 </html>`;
 
   fs.writeFileSync(outputHtmlPath, finalHtml.trim(), "utf8");
-  console.log(" HTML tayyor bo‘ldi.");
+  console.log("Created html code");
 })
 
   .catch((err) => {
-    console.error("Xatolik:", err);
+    console.error("Error:", err);
   });
 
 

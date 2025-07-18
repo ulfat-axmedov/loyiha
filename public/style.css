@@ -115,10 +115,12 @@ body {
     text-align:justify;
    height: 34px;
    display: flex;
-   justify-content: center;
-   
+   justify-content: center; 
 }
 
+.center{
+    text-align: center;
+}
   
 
   
